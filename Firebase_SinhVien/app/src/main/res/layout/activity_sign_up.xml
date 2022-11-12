@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Đăng Kí"
+        android:textColor="#F8F8FF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/adduser" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên"
+        android:layout_marginLeft="50dp"
+        android:textSize="15sp"
+        android:textColor="#FFEB3B"/>
+
+    <EditText
+        android:id="@+id/unamein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gmai"
+        android:layout_marginLeft="50dp"
+        android:textSize="15sp"
+        android:textColor="#FFEB3B"/>
+
+    <EditText
+        android:id="@+id/gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:layout_marginLeft="50dp"
+        android:textSize="15sp"
+        android:textColor="#FFEB3B"/>
+
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Ngày sinh"
+        android:textColor="#FFEB3B"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/ngsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="143dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF3B89"
+        android:text="Đăng kí"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="143dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FF3B89"
+        android:text="Quay lại"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+</LinearLayout>
